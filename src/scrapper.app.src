@@ -1,0 +1,16 @@
+{application, Scraper,
+ [
+  {description, "Web Scraper A.R.Tavanaei"},
+  {vsn, "0.1.2"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  public_key,
+                  crypto,
+                  ssl,
+                  inets
+                 ]},
+  {mod, { Scraper, []}},
+  {env, []}
+ ]}.
